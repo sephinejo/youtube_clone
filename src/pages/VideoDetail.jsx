@@ -8,7 +8,7 @@ export default function VideoDetail() {
     state: { video },
   } = useLocation();
   const { title, channelId, channelTitle, description } = video.snippet;
-  console.log(video);
+
   return (
     <section className='flex flex-col lg:flex-row'>
       <article className='basis-4/6'>
